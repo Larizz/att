@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 600px;
+        }
+        .swiper-slide {
+            display: flex;
+            height: 600px;
+            background: #fff;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: #666;
+        }
+    </style>
+
+</head>
+<body>
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+
+<nav class="navbar navbar-light bg-dark">
+    <a class="navbar-brand" href="#">
+        <section class="wow zoomInUp">
+      <img src="./images/glock.png" width="55" height="55" alt="">
+      </section>
+    </a>
+  </nav>
+
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/Screenshot_2020-02-19 GLOCK Perfection G17 Gen4 MOS.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/gg.png"></div>
+            <div class="swiper-slide"><img src="./images/glo.png"></div>
+        </div>
+        <div class="swiper-pagination"></div>    
+    </div>
+
+<script src="./js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination:{
+            el: '.swiper-pagination',
+            autoHeight: true
+        }
+    })
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="zoom">
+    <section class="wow jackInTheBox" data-wow-duration="3s" data-wow-delay="1.5s">
+<img width="530" id="img" data-zoom-image="./images/zoo.jpg" src="./images/zoo.jpg" alt="">
+</section>
+<section class="wow jackInTheBox" data-wow-duration="3s" data-wow-delay="1.5s">
+<img width="530" id="img2" data-zoom-image="./images/zoom.jpg" src="./images/zoom.jpg" alt="">
+</section>
+
+<script src="./js/jquery-1.8.3.min.js"></script>
+<script src="./js/jquery.elevatezoom.js"></script>
+<script>
+    $('#img').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+    zoomWindowFadeIn: 500,
+    zoomWindowFadeOut: 750
+}); 
+</script>
+
+<script>
+    $('#img2').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+    zoomWindowFadeIn: 500,
+    zoomWindowFadeOut: 750
+}); 
+</script>
+
+</div>
+ 
+<nav class="navbar navbar-light bg-dark">
+    <section class="wow flash">
+        <section class="wow zoomInUp" data-wow-duration="2s" data-wow-delay="4s">
+  <a class="navbar-brand" href="#"><h1 class="tt">GALLERY</h1></a>
+  </section>
+</section>
+</nav>
+<div class="galeria">
+
+<a href="images/1.png" 
+data-title="G17 gen5 MOS" 
+data-lightbox="photo1">
+    <img src="images/1.png" width="400" alt="">
+</a>
+<a href="images/2.png" 
+data-title="G17 gen5" 
+data-lightbox="photo1" >
+    <img src="images/2.png" width="380" alt="" >
+</a>
+<a href="images/g3.png" 
+data-title="G17 gen4 MOS" 
+data-lightbox="photo1">
+    <img src="images/3.png" width="380" alt="">
+</a>
+</div>
+<div class="galeria2">
+    <a href="images/g4.png" 
+    data-title="G18C" 
+    data-lightbox="photo1">
+        <img src="images/g4.png" width="380" alt="">
+    </a>
+    <a href="images/g5.png" 
+    data-title="G18" 
+    data-lightbox="photo1">
+        <img src="images/g5.png" width="380" alt="">
+    </a>
+    <a href="images/g6.png" 
+    data-title="G17L" 
+    data-lightbox="photo1">
+        <img src="images/g6.png" width="380" alt="">
+    </a>
+    </div>
+
+    <section class="wow flash">
+        <a class="navbar-brand" href="#"><h1 class="tt">GALLERY</h1></a>
+      </section>
+
+
+<script src="js/lightbox-plus-jquery.min.js"></script> 
+<script src="js/lightbox.min.js"></script> 
+</body>
+
+</html>

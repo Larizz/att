@@ -1,0 +1,49 @@
+.card img{
+   padding: 20px;
+   margin: -4.8px;
+   background-color:#000;
+   width: 600px;
+}
+.card-text p{
+    margin: -4.8px;
+}
+.text{
+    font-size: 100px;
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 110px;
+    margin-right: 110px;
+    
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.galeria2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 110px;
+    margin-right: 110px;
+
+}
+.zoom{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.tt{
+    color: white;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    padding-left: 30px;
+}
+<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet"> 
